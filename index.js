@@ -17,7 +17,7 @@ const calculateNewVelocity = (velocity, acceleration, time) => {
   return velocity + (acceleration*time)
 }
 
-const newDistance = distance + (velocity * time) //calcultes new distance
+const newDistance = distance + (velocity * time) //calculates new distance
 const remainingFuel = fuelBurnRate*time //calculates remaining fuel
 const newVelocity = calculateNewVelocity(acceleration, velocity, time) //calculates new velocity based on acceleration
 
