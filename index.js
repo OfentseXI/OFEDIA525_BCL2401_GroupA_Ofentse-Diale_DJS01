@@ -21,8 +21,6 @@ const newVelocity = calculateNewVelocity(velocity, acceleration, time) //calcula
 const newDistance = distance + (velocity * time / 3600) //calculates new distance
 const remainingFuel = fuel - fuelBurnRate * time //calculates remaining fuel
 
-// Pick up an error with how the function below is called and make it robust to such errors
-
 
 console.log(`Corrected New Velocity: ${newVelocity} km/h`);
 console.log(`Corrected New Distance: ${newDistance} km`);
